@@ -9,7 +9,8 @@ public class CollezioneContiCorrenti {
 
     /**
      * Trova il conto corrente che ha lo stesso IBAN di quello passato
-     * @param iban l'IBAN da cercare 
+     *
+     * @param iban l'IBAN da cercare
      * @return il conto trovato o null se non trova nulla
      */
     public ContoCorrente getContoByIBAN(String iban) {
@@ -47,6 +48,11 @@ public class CollezioneContiCorrenti {
         collezioneConti.add(c);
     }
 
+    /**
+     * cancella il conto corrente
+     *
+     * @param c
+     */
     public void removeContoCorrente(ContoCorrente c) {
         return;
     }
